@@ -3,8 +3,8 @@ package com.icaro.jokenpoconfuse.model;
 import java.util.Random;
 
 public class Jogo {
-    private Jogador jogador;
-    private Jogador computador;
+    private Jogador jogador = new Jogador("Jogador");
+    private Jogador computador = new Jogador("Computador");
 
     private int vitoriasJogador = 0;
     private int vitoriasComputador = 0;

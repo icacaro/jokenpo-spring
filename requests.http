@@ -1,0 +1,8 @@
+### POST request to example server
+
+POST http://localhost:8080/api/jokenpo/jogar
+content-type: application/json
+
+{
+    "jogada" : "PEDRA"
+}

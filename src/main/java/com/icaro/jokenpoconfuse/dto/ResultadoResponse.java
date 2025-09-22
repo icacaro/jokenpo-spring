@@ -2,6 +2,11 @@ package com.icaro.jokenpoconfuse.dto;
 
 import com.icaro.jokenpoconfuse.model.Jogada;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ResultadoResponse {
     private String resultadoRodada;
     private Jogada jogadaComputador;
